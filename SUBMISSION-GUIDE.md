@@ -56,8 +56,7 @@ node tools/shoot-deployed.mjs https://<your-app>.<region>.codeengine.appdomain.c
 ## Steps to finish the remaining tasks
 
 1. **GitHub repository** - done. Pushed to
-   <https://github.com/opal-030206/Capstone_carDealership> (public, branch `main`,
-   commits `05570aa` and `02f4baa`).
+   <https://github.com/opal-030206/Capstone_carDealership> (public, branch `main`).
 
 2. **Tasks 1, 3, 4, 7** - use these exact URLs:
 
@@ -70,14 +69,21 @@ node tools/shoot-deployed.mjs https://<your-app>.<region>.codeengine.appdomain.c
 
    The repository is **public**, so the links work for the grader.
 
-3. **Task 23** - the push triggers `.github/workflows/ci.yml`. Open the
-   **Actions** tab, wait for the green run, open the latest job, and copy the
-   step log into `submission/CICD`. The file currently in `submission/CICD` is a
-   placeholder and must be replaced.
+3. **Task 23** - done. Run #3 of the `CI` workflow passed all three jobs
+   (React build, Django tests, Docker images):
 
-4. **Tasks 24-28** - follow `deploy/code-engine.md`, then write the public URL
-   into `submission/deploymentURL` (overwriting the placeholder) and rerun
-   `node tools/shoot-deployed.mjs <deployment-url>`.
+   ```
+   https://github.com/opal-030206/Capstone_carDealership/actions/runs/41175652194
+   ```
+
+   `submission/CICD` holds the full console output of that run and
+   `screenshots/CICD.png` is the matching screenshot. Regenerate them with
+   `powershell -File tools/ci-watch.ps1 -Token <pat> -RunId <run-id>` followed by
+   `powershell -File tools/ci-compose.ps1` and `node tools/shoot-ci.mjs`.
+
+4. **Tasks 24-28** - still open. Follow `deploy/code-engine.md`, then write the
+   public URL into `submission/deploymentURL` (overwriting the placeholder) and
+   rerun `node tools/shoot-deployed.mjs <deployment-url>`.
 
 ## Notes for the grader's environment
 
