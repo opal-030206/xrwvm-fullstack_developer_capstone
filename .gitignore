@@ -17,3 +17,6 @@ npm-debug.log*
 cookies.txt
 screenshots/tmp/
 .pytest_cache/
+
+# Raw CI log downloads used to build submission/CICD
+submission/ci-logs/

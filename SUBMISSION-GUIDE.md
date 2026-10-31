@@ -55,28 +55,20 @@ node tools/shoot-deployed.mjs https://<your-app>.<region>.codeengine.appdomain.c
 
 ## Steps to finish the remaining tasks
 
-1. **Create the GitHub repository** and push this folder.
+1. **GitHub repository** - done. Pushed to
+   <https://github.com/opal-030206/Capstone_carDealership> (public, branch `main`,
+   commits `05570aa` and `02f4baa`).
 
-   ```bash
-   cd cars-dealership
-   git init
-   git add .
-   git commit -m "Cars Dealership capstone"
-   git branch -M main
-   git remote add origin https://github.com/<your-user>/<your-repo>.git
-   git push -u origin main
-   ```
-
-2. **Tasks 1, 3, 4, 7** - open each file on GitHub and copy its URL, e.g.
+2. **Tasks 1, 3, 4, 7** - use these exact URLs:
 
    ```
-   https://github.com/<your-user>/<your-repo>/blob/main/README.md
-   https://github.com/<your-user>/<your-repo>/blob/main/server/frontend/static/About.html
-   https://github.com/<your-user>/<your-repo>/blob/main/server/frontend/static/Contact.html
-   https://github.com/<your-user>/<your-repo>/blob/main/server/frontend/src/components/Register/Register.jsx
+   https://github.com/opal-030206/Capstone_carDealership/blob/main/README.md
+   https://github.com/opal-030206/Capstone_carDealership/blob/main/server/frontend/static/About.html
+   https://github.com/opal-030206/Capstone_carDealership/blob/main/server/frontend/static/Contact.html
+   https://github.com/opal-030206/Capstone_carDealership/blob/main/server/frontend/src/components/Register/Register.jsx
    ```
 
-   The repository must be **public**.
+   The repository is **public**, so the links work for the grader.
 
 3. **Task 23** - the push triggers `.github/workflows/ci.yml`. Open the
    **Actions** tab, wait for the green run, open the latest job, and copy the
