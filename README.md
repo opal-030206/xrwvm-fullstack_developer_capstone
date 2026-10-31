@@ -115,9 +115,9 @@ Open <http://127.0.0.1:8000/>.
 | Username | Password   | Role                          |
 |----------|------------|-------------------------------|
 | `root`   | `root123`  | superuser - Django admin, /admin/ |
-| `jdoe`   | `password123` | customer                   |
-| `msmith` | `password123` | customer                   |
-| `apatel` | `password123` | customer                   |
+| `jdoe`   | `jdoe123`  | customer                      |
+| `msmith` | `msmith123` | customer                     |
+| `apatel` | `apatel123` | customer                     |
 
 The seed data contains **18 dealerships** in 14 states (4 in Kansas), **8 car
 makes** with 21 models, and 12 published reviews.
