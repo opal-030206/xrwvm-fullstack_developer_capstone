@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="Map of the Cars Dealership head office in Kansas City, Kansas">
+  <rect width="800" height="480" fill="#eef2f7"/>
+  <g stroke="#d5dde8" stroke-width="2">
+    <path d="M0 60h800M0 140h800M0 220h800M0 300h800M0 380h800"/>
+    <path d="M90 0v480M210 0v480M330 0v480M450 0v480M570 0v480M690 0v480"/>
+  </g>
+  <g fill="#e3e9f1">
+    <rect x="105" y="75" width="90" height="50" rx="4"/>
+    <rect x="225" y="75" width="90" height="50" rx="4"/>
+    <rect x="465" y="155" width="90" height="50" rx="4"/>
+    <rect x="585" y="155" width="90" height="50" rx="4"/>
+    <rect x="105" y="235" width="90" height="50" rx="4"/>
+    <rect x="345" y="315" width="90" height="50" rx="4"/>
+    <rect x="585" y="315" width="90" height="50" rx="4"/>
+  </g>
+  <path d="M-20 400 C 150 360, 260 430, 420 390 S 700 330, 830 360" fill="none" stroke="#bcd8ee" stroke-width="26" stroke-linecap="round"/>
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round">
+    <path d="M0 300H800"/>
+    <path d="M330 0V480"/>
+  </g>
+  <g stroke="#f5c66b" stroke-width="7" stroke-linecap="round">
+    <path d="M0 140H800"/>
+  </g>
+  <text x="24" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#7c8ba1">Interstate 70</text>
+  <text x="342" y="466" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#7c8ba1" transform="rotate(-90 342 466)">Southwest Blvd</text>
+  <text x="560" y="404" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#9ab6cf">Kansas River</text>
+
+  <g transform="translate(392 268)">
+    <circle r="34" fill="#f97316" opacity="0.18"/>
+    <path d="M0 -26c-13 0-23 10-23 23 0 17 23 37 23 37s23-20 23-37c0-13-10-23-23-23z" fill="#f97316" stroke="#ffffff" stroke-width="3"/>
+    <circle cy="-3" r="8" fill="#ffffff"/>
+  </g>
+
+  <rect x="432" y="222" width="248" height="58" rx="10" fill="#ffffff" stroke="#d5dde8"/>
+  <text x="448" y="246" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#10243e">Cars Dealership</text>
+  <text x="448" y="266" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#64748b">1401 Southwest Blvd, Kansas City, KS</text>
+</svg>

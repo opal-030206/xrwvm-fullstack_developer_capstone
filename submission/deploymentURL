@@ -1,0 +1,15 @@
+PLACEHOLDER - DO NOT SUBMIT THIS FILE AS YOUR TASK 24 ANSWER.
+
+Task 24 needs the public URL of the Django application after deployment.
+
+Steps:
+  1. Deploy with deploy/code-engine.md.
+  2. Get the URL:
+       ibmcloud ce application get --name cars-dealership --output url
+  3. Replace the contents of this file with that URL (one line, e.g.
+       https://cars-dealership.abc123.us-south.codeengine.appdomain.cloud
+     ).
+  4. Re-capture the deployed screenshots with:
+       node tools/shoot-deployed.mjs <that-url>
+
+Remove this placeholder text when you do.

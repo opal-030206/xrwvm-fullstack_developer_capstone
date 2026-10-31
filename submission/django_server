@@ -1,0 +1,45 @@
+﻿Performing system checks...
+
+System check identified no issues (0 silenced).
+October 31, 2026 - 10:55:17
+Django version 5.2.18, using settings 'server.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+
+[31/Oct/2026 11:17:26] "GET /djangoapp/session HTTP/1.1" 200 37
+[31/Oct/2026 11:17:26] "GET /djangoapp/get_dealers HTTP/1.1" 200 4146
+[31/Oct/2026 11:17:26] "GET /static/images/favicon.svg HTTP/1.1" 200 357
+[31/Oct/2026 11:17:26] "GET /djangoapp/get_dealers HTTP/1.1" 200 4146
+[31/Oct/2026 11:17:26] "GET /static/images/dealer-1.jpg HTTP/1.1" 200 150757
+[31/Oct/2026 11:17:26] "GET /static/images/dealer-4.jpg HTTP/1.1" 200 151988
+[31/Oct/2026 11:17:26] "GET /static/images/dealer-5.jpg HTTP/1.1" 200 133364
+[31/Oct/2026 11:17:26] "GET /static/images/dealer-2.jpg HTTP/1.1" 200 176585
+[31/Oct/2026 11:17:26] "GET /static/images/dealer-3.jpg HTTP/1.1" 200 197059
+[31/Oct/2026 11:17:26] "GET /static/images/dealer-6.jpg HTTP/1.1" 200 147720
+[31/Oct/2026 11:17:36] "GET /login HTTP/1.1" 200 431
+[31/Oct/2026 11:17:36] "GET /djangoapp/session HTTP/1.1" 200 37
+[31/Oct/2026 11:17:38] "POST /djangoapp/login HTTP/1.1" 200 150
+[31/Oct/2026 11:17:38] "GET /djangoapp/get_dealers HTTP/1.1" 200 4146
+[31/Oct/2026 11:17:38] "GET /djangoapp/get_dealers HTTP/1.1" 200 4146
+[31/Oct/2026 11:17:38] "GET / HTTP/1.1" 200 431
+[31/Oct/2026 11:17:38] "GET /djangoapp/get_dealers HTTP/1.1" 200 4146
+[31/Oct/2026 11:17:38] "GET /djangoapp/session HTTP/1.1" 200 168
+[31/Oct/2026 11:17:38] "GET /djangoapp/get_dealers HTTP/1.1" 200 4146
+[31/Oct/2026 11:17:48] "GET /dealers/Kansas HTTP/1.1" 200 431
+[31/Oct/2026 11:17:48] "GET /djangoapp/get_dealers HTTP/1.1" 200 4146
+[31/Oct/2026 11:17:48] "GET /djangoapp/get_dealers/Kansas HTTP/1.1" 200 907
+[31/Oct/2026 11:17:48] "GET /djangoapp/session HTTP/1.1" 200 168
+[31/Oct/2026 11:17:58] "GET /dealer/1 HTTP/1.1" 200 431
+[31/Oct/2026 11:17:58] "GET /djangoapp/get_dealer/1 HTTP/1.1" 200 228
+[31/Oct/2026 11:17:58] "GET /djangoapp/session HTTP/1.1" 200 168
+[31/Oct/2026 11:17:58] "GET /djangoapp/reviews/dealer/1 HTTP/1.1" 200 1412
+[31/Oct/2026 11:18:07] "GET /postreview/1 HTTP/1.1" 200 431
+[31/Oct/2026 11:18:07] "GET /djangoapp/get_dealer/1 HTTP/1.1" 200 228
+[31/Oct/2026 11:18:07] "GET /djangoapp/session HTTP/1.1" 200 168
+[31/Oct/2026 11:18:07] "GET /djangoapp/get_cars HTTP/1.1" 200 2867
+[31/Oct/2026 11:18:18] "POST /djangoapp/add_review HTTP/1.1" 201 517
+[31/Oct/2026 11:18:19] "GET /djangoapp/get_dealer/1 HTTP/1.1" 200 228
+[31/Oct/2026 11:18:19] "GET /djangoapp/reviews/dealer/1 HTTP/1.1" 200 1905

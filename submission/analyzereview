@@ -1,0 +1,13 @@
+# Cars Dealership capstone - cURL transcript
+# Captured: 2026-10-31T05:24:20Z
+
+# 1. The Flask sentiment analysis microservice, called directly:
+$ curl -s -X POST http://localhost:5050/analyze -H 'Content-Type: application/json' -d '{"text":"Fantastic services"}'
+
+{"confidence":1.0,"score":3.4,"sentiment":"positive","text":"Fantastic services"}
+
+
+# 2. The same request through the Django proxy used by the web app:
+$ curl -s -X POST http://localhost:8000/djangoapp/analyze_review -H 'Content-Type: application/json' -d '{"text":"Fantastic services"}'
+
+{"confidence": 1.0, "score": 3.4, "sentiment": "positive", "text": "Fantastic services"}

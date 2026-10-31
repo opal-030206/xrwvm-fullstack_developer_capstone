@@ -1,0 +1,19 @@
+# Cars Dealership capstone - cURL transcript
+# Captured: 2026-10-31T05:24:17Z
+# Application: http://localhost:8000  (Flask sentiment service: http://localhost:5050)
+
+$ curl -s http://localhost:8000/djangoapp/get_dealer/1 | python -m json.tool
+
+{
+    "id": 1,
+    "full_name": "Kansas City Auto Mall",
+    "short_name": "KC Auto Mall",
+    "address": "1401 Southwest Blvd",
+    "city": "Kansas City",
+    "state": "Kansas",
+    "zip": "66103",
+    "lat": 39.0812,
+    "long": -94.6107,
+    "image": "dealer-1.jpg"
+}
+

@@ -1,0 +1,13 @@
+PLACEHOLDER - DO NOT SUBMIT THIS FILE AS YOUR TASK 23 ANSWER.
+
+Task 23 needs the log of a successful GitHub Actions run of
+.github/workflows/ci.yml on your own repository.
+
+Steps:
+  1. Push this folder to a public GitHub repository.
+  2. Open the repository's "Actions" tab and wait for the "CI" workflow to pass.
+  3. Open the completed run, then the "Django tests", "React build" and
+     "Docker images" jobs, and copy the step list / console output.
+  4. Replace the contents of this file with that real output.
+
+Remove this placeholder text when you do.

@@ -1,0 +1,41 @@
+# Cars Dealership capstone - cURL transcript
+# Captured: 2026-10-31T05:24:13Z
+# Application: http://localhost:8000  (Flask sentiment service: http://localhost:5050)
+
+$ curl -s http://localhost:8000/djangoapp/reviews/dealer/1 | python -m json.tool
+
+[
+    {
+        "id": 2,
+        "name": "Maria Smith",
+        "username": "msmith",
+        "dealership": "KC Auto Mall",
+        "dealer_id": 1,
+        "review": "Good experience overall. The showroom was clean and the staff were helpful, though the paperwork took a little longer than expected.",
+        "sentiment": "positive",
+        "sentiment_score": 3.175,
+        "purchase": false,
+        "purchase_date": null,
+        "car_make": "Honda",
+        "car_model": "Civic",
+        "car_year": 2024,
+        "created_at": "2026-10-30T11:23:29.747264+00:00"
+    },
+    {
+        "id": 1,
+        "name": "John Doe",
+        "username": "jdoe",
+        "dealership": "KC Auto Mall",
+        "dealer_id": 1,
+        "review": "Fantastic services. The sales team was friendly, patient and explained every option without pressure. I drove away in a great car at a fair price.",
+        "sentiment": "positive",
+        "sentiment_score": 5.0,
+        "purchase": true,
+        "purchase_date": "2024-03-18",
+        "car_make": "Toyota",
+        "car_model": "Camry",
+        "car_year": 2023,
+        "created_at": "2026-10-30T11:23:29.744162+00:00"
+    }
+]
+

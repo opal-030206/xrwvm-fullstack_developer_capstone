@@ -1,0 +1,7 @@
+# Cars Dealership capstone - cURL transcript
+# Captured: 2026-10-31T05:24:08Z
+# Application: http://localhost:8000  (Flask sentiment service: http://localhost:5050)
+
+$ curl -s -X POST http://localhost:8000/djangoapp/login -H 'Content-Type: application/json' -d '{"userName":"root","password":"root123"}' -c cookies.txt -b cookies.txt
+
+{"userName": "root", "firstName": "Root", "lastName": "Administrator", "email": "root@carsdealership.com", "isStaff": true, "status": "Authenticated"}

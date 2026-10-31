@@ -1,0 +1,233 @@
+# Cars Dealership capstone - cURL transcript
+# Captured: 2026-10-31T05:24:19Z
+# Application: http://localhost:8000  (Flask sentiment service: http://localhost:5050)
+
+$ curl -s http://localhost:8000/djangoapp/get_cars | python -m json.tool
+
+[
+    {
+        "id": 5,
+        "CarMake": "BMW",
+        "description": "BMW vehicles in stock.",
+        "CarModels": [
+            {
+                "id": 14,
+                "name": "3 Series",
+                "year": 2024,
+                "body_type": "Sedan",
+                "price": 47300.0,
+                "dealer_id": null
+            },
+            {
+                "id": 15,
+                "name": "X5",
+                "year": 2024,
+                "body_type": "SUV",
+                "price": 68200.0,
+                "dealer_id": null
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "CarMake": "Chevrolet",
+        "description": "Chevrolet vehicles in stock.",
+        "CarModels": [
+            {
+                "id": 13,
+                "name": "Equinox",
+                "year": 2024,
+                "body_type": "SUV",
+                "price": 29900.0,
+                "dealer_id": null
+            },
+            {
+                "id": 12,
+                "name": "Malibu",
+                "year": 2024,
+                "body_type": "Sedan",
+                "price": 26100.0,
+                "dealer_id": null
+            },
+            {
+                "id": 11,
+                "name": "Silverado 1500",
+                "year": 2024,
+                "body_type": "Pickup",
+                "price": 40500.0,
+                "dealer_id": null
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "CarMake": "Ford",
+        "description": "Ford vehicles in stock.",
+        "CarModels": [
+            {
+                "id": 10,
+                "name": "Escape",
+                "year": 2024,
+                "body_type": "SUV",
+                "price": 30500.0,
+                "dealer_id": null
+            },
+            {
+                "id": 8,
+                "name": "F-150",
+                "year": 2024,
+                "body_type": "Pickup",
+                "price": 42100.0,
+                "dealer_id": null
+            },
+            {
+                "id": 9,
+                "name": "Mustang",
+                "year": 2024,
+                "body_type": "Coupe",
+                "price": 45900.0,
+                "dealer_id": null
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "CarMake": "Honda",
+        "description": "Honda vehicles in stock.",
+        "CarModels": [
+            {
+                "id": 6,
+                "name": "Accord",
+                "year": 2024,
+                "body_type": "Sedan",
+                "price": 29500.0,
+                "dealer_id": null
+            },
+            {
+                "id": 7,
+                "name": "CR-V",
+                "year": 2024,
+                "body_type": "SUV",
+                "price": 31275.0,
+                "dealer_id": null
+            },
+            {
+                "id": 5,
+                "name": "Civic",
+                "year": 2024,
+                "body_type": "Sedan",
+                "price": 24950.0,
+                "dealer_id": null
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "CarMake": "Hyundai",
+        "description": "Hyundai vehicles in stock.",
+        "CarModels": [
+            {
+                "id": 18,
+                "name": "Elantra",
+                "year": 2024,
+                "body_type": "Sedan",
+                "price": 23100.0,
+                "dealer_id": null
+            },
+            {
+                "id": 19,
+                "name": "Tucson",
+                "year": 2024,
+                "body_type": "SUV",
+                "price": 30100.0,
+                "dealer_id": null
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "CarMake": "Nissan",
+        "description": "Nissan vehicles in stock.",
+        "CarModels": [
+            {
+                "id": 20,
+                "name": "Altima",
+                "year": 2024,
+                "body_type": "Sedan",
+                "price": 26500.0,
+                "dealer_id": null
+            },
+            {
+                "id": 21,
+                "name": "Rogue",
+                "year": 2024,
+                "body_type": "SUV",
+                "price": 30900.0,
+                "dealer_id": null
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "CarMake": "Tesla",
+        "description": "Tesla vehicles in stock.",
+        "CarModels": [
+            {
+                "id": 16,
+                "name": "Model 3",
+                "year": 2024,
+                "body_type": "Sedan",
+                "price": 42990.0,
+                "dealer_id": null
+            },
+            {
+                "id": 17,
+                "name": "Model Y",
+                "year": 2024,
+                "body_type": "SUV",
+                "price": 47990.0,
+                "dealer_id": null
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "CarMake": "Toyota",
+        "description": "Toyota vehicles in stock.",
+        "CarModels": [
+            {
+                "id": 1,
+                "name": "Camry",
+                "year": 2024,
+                "body_type": "Sedan",
+                "price": 28450.0,
+                "dealer_id": null
+            },
+            {
+                "id": 2,
+                "name": "Corolla",
+                "year": 2024,
+                "body_type": "Sedan",
+                "price": 23250.0,
+                "dealer_id": null
+            },
+            {
+                "id": 3,
+                "name": "RAV4",
+                "year": 2024,
+                "body_type": "SUV",
+                "price": 31875.0,
+                "dealer_id": null
+            },
+            {
+                "id": 4,
+                "name": "Tacoma",
+                "year": 2024,
+                "body_type": "Pickup",
+                "price": 36750.0,
+                "dealer_id": null
+            }
+        ]
+    }
+]
+

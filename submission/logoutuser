@@ -1,0 +1,7 @@
+# Cars Dealership capstone - cURL transcript
+# Captured: 2026-10-31T05:24:13Z
+# Application: http://localhost:8000  (Flask sentiment service: http://localhost:5050)
+
+$ curl -s -X POST http://localhost:8000/djangoapp/logout -b cookies.txt -c cookies.txt
+
+{"userName": "root", "status": "Logged out"}

@@ -1,0 +1,20 @@
+services:
+  sentiment:
+    build:
+      context: .
+      dockerfile: Dockerfile.sentiment
+    image: cars-dealership-sentiment
+    ports:
+      - "5050:8080"
+
+  web:
+    build: .
+    image: cars-dealership
+    depends_on:
+      - sentiment
+    environment:
+      SENTIMENT_SERVICE_URL: http://sentiment:8080
+      CAR_DEALERSHIP_DEBUG: "0"
+      DJANGO_SECRET_KEY: change-me-in-production
+    ports:
+      - "8000:8080"

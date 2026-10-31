@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+db.sqlite3
+staticfiles/
+
+# Node / React
+node_modules/
+server/frontend/dist/
+npm-debug.log*
+
+# Local artefacts
+*.log
+.env
+.DS_Store
+cookies.txt
+screenshots/tmp/
+.pytest_cache/

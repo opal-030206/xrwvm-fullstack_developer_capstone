@@ -1,0 +1,57 @@
+# Cars Dealership capstone - cURL transcript
+# Captured: 2026-10-31T05:24:18Z
+# Application: http://localhost:8000  (Flask sentiment service: http://localhost:5050)
+
+$ curl -s http://localhost:8000/djangoapp/get_dealers/Kansas | python -m json.tool
+
+[
+    {
+        "id": 1,
+        "full_name": "Kansas City Auto Mall",
+        "short_name": "KC Auto Mall",
+        "address": "1401 Southwest Blvd",
+        "city": "Kansas City",
+        "state": "Kansas",
+        "zip": "66103",
+        "lat": 39.0812,
+        "long": -94.6107,
+        "image": "dealer-1.jpg"
+    },
+    {
+        "id": 18,
+        "full_name": "Salina Central Auto",
+        "short_name": "Salina Central",
+        "address": "900 E Crawford St",
+        "city": "Salina",
+        "state": "Kansas",
+        "zip": "67401",
+        "lat": 38.8411,
+        "long": -97.5981,
+        "image": "dealer-6.jpg"
+    },
+    {
+        "id": 3,
+        "full_name": "Topeka Motor Company",
+        "short_name": "Topeka Motors",
+        "address": "2300 S Kansas Ave",
+        "city": "Topeka",
+        "state": "Kansas",
+        "zip": "66611",
+        "lat": 39.0261,
+        "long": -95.6793,
+        "image": "dealer-3.jpg"
+    },
+    {
+        "id": 2,
+        "full_name": "Wichita Wheels Dealership",
+        "short_name": "Wichita Wheels",
+        "address": "8250 E Kellogg Dr",
+        "city": "Wichita",
+        "state": "Kansas",
+        "zip": "67207",
+        "lat": 37.6794,
+        "long": -97.2351,
+        "image": "dealer-2.jpg"
+    }
+]
+

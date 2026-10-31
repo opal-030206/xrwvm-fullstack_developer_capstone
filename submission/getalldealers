@@ -1,0 +1,225 @@
+# Cars Dealership capstone - cURL transcript
+# Captured: 2026-10-31T05:24:16Z
+# Application: http://localhost:8000  (Flask sentiment service: http://localhost:5050)
+
+$ curl -s http://localhost:8000/djangoapp/get_dealers | python -m json.tool
+
+[
+    {
+        "id": 6,
+        "full_name": "Bay Area Auto Gallery",
+        "short_name": "Bay Area Gallery",
+        "address": "2400 Broadway",
+        "city": "Oakland",
+        "state": "California",
+        "zip": "94612",
+        "lat": 37.8126,
+        "long": -122.2647,
+        "image": "dealer-6.jpg"
+    },
+    {
+        "id": 13,
+        "full_name": "Buckeye Cleveland Auto",
+        "short_name": "Buckeye Auto",
+        "address": "12000 Brookpark Rd",
+        "city": "Cleveland",
+        "state": "Ohio",
+        "zip": "44130",
+        "lat": 41.4184,
+        "long": -81.7823,
+        "image": "dealer-1.jpg"
+    },
+    {
+        "id": 12,
+        "full_name": "Cornhusker Lincoln Motors",
+        "short_name": "Cornhusker Motors",
+        "address": "2700 O St",
+        "city": "Lincoln",
+        "state": "Nebraska",
+        "zip": "68510",
+        "lat": 40.8136,
+        "long": -96.6883,
+        "image": "dealer-6.jpg"
+    },
+    {
+        "id": 14,
+        "full_name": "Desert Sky Phoenix Motors",
+        "short_name": "Desert Sky Motors",
+        "address": "2200 W Camelback Rd",
+        "city": "Phoenix",
+        "state": "Arizona",
+        "zip": "85015",
+        "lat": 33.5095,
+        "long": -112.1081,
+        "image": "dealer-2.jpg"
+    },
+    {
+        "id": 16,
+        "full_name": "Emerald Seattle Motors",
+        "short_name": "Emerald Motors",
+        "address": "4501 Aurora Ave N",
+        "city": "Seattle",
+        "state": "Washington",
+        "zip": "98103",
+        "lat": 47.6614,
+        "long": -122.3476,
+        "image": "dealer-4.jpg"
+    },
+    {
+        "id": 8,
+        "full_name": "Empire State Auto Group",
+        "short_name": "Empire Auto",
+        "address": "620 W 51st St",
+        "city": "New York",
+        "state": "New York",
+        "zip": "10019",
+        "lat": 40.7663,
+        "long": -73.9931,
+        "image": "dealer-2.jpg"
+    },
+    {
+        "id": 4,
+        "full_name": "Gateway St. Louis Motors",
+        "short_name": "Gateway Motors",
+        "address": "3800 S Kingshighway Blvd",
+        "city": "St. Louis",
+        "state": "Missouri",
+        "zip": "63109",
+        "lat": 38.5989,
+        "long": -90.2755,
+        "image": "dealer-4.jpg"
+    },
+    {
+        "id": 1,
+        "full_name": "Kansas City Auto Mall",
+        "short_name": "KC Auto Mall",
+        "address": "1401 Southwest Blvd",
+        "city": "Kansas City",
+        "state": "Kansas",
+        "zip": "66103",
+        "lat": 39.0812,
+        "long": -94.6107,
+        "image": "dealer-1.jpg"
+    },
+    {
+        "id": 5,
+        "full_name": "Lone Star Dallas Autoplex",
+        "short_name": "Lone Star Autoplex",
+        "address": "9500 N Central Expy",
+        "city": "Dallas",
+        "state": "Texas",
+        "zip": "75231",
+        "lat": 32.8782,
+        "long": -96.7699,
+        "image": "dealer-5.jpg"
+    },
+    {
+        "id": 17,
+        "full_name": "Peachtree Atlanta Cars",
+        "short_name": "Peachtree Cars",
+        "address": "3100 Peachtree Rd NW",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "zip": "30305",
+        "lat": 33.8395,
+        "long": -84.3866,
+        "image": "dealer-5.jpg"
+    },
+    {
+        "id": 10,
+        "full_name": "Rocky Mountain Motors",
+        "short_name": "Rocky Mountain",
+        "address": "700 Colorado Blvd",
+        "city": "Denver",
+        "state": "Colorado",
+        "zip": "80206",
+        "lat": 39.7279,
+        "long": -104.9402,
+        "image": "dealer-4.jpg"
+    },
+    {
+        "id": 18,
+        "full_name": "Salina Central Auto",
+        "short_name": "Salina Central",
+        "address": "900 E Crawford St",
+        "city": "Salina",
+        "state": "Kansas",
+        "zip": "67401",
+        "lat": 38.8411,
+        "long": -97.5981,
+        "image": "dealer-6.jpg"
+    },
+    {
+        "id": 11,
+        "full_name": "Sooner Oklahoma Autos",
+        "short_name": "Sooner Autos",
+        "address": "4400 NW Expressway",
+        "city": "Oklahoma City",
+        "state": "Oklahoma",
+        "zip": "73116",
+        "lat": 35.5248,
+        "long": -97.591,
+        "image": "dealer-5.jpg"
+    },
+    {
+        "id": 7,
+        "full_name": "Sunshine Miami Motors",
+        "short_name": "Sunshine Motors",
+        "address": "1750 Biscayne Blvd",
+        "city": "Miami",
+        "state": "Florida",
+        "zip": "33132",
+        "lat": 25.7907,
+        "long": -80.1867,
+        "image": "dealer-1.jpg"
+    },
+    {
+        "id": 3,
+        "full_name": "Topeka Motor Company",
+        "short_name": "Topeka Motors",
+        "address": "2300 S Kansas Ave",
+        "city": "Topeka",
+        "state": "Kansas",
+        "zip": "66611",
+        "lat": 39.0261,
+        "long": -95.6793,
+        "image": "dealer-3.jpg"
+    },
+    {
+        "id": 2,
+        "full_name": "Wichita Wheels Dealership",
+        "short_name": "Wichita Wheels",
+        "address": "8250 E Kellogg Dr",
+        "city": "Wichita",
+        "state": "Kansas",
+        "zip": "67207",
+        "lat": 37.6794,
+        "long": -97.2351,
+        "image": "dealer-2.jpg"
+    },
+    {
+        "id": 15,
+        "full_name": "Willamette Portland Auto",
+        "short_name": "Willamette Auto",
+        "address": "1800 NE 122nd Ave",
+        "city": "Portland",
+        "state": "Oregon",
+        "zip": "97230",
+        "lat": 45.5309,
+        "long": -122.5303,
+        "image": "dealer-3.jpg"
+    },
+    {
+        "id": 9,
+        "full_name": "Windy City Chicago Cars",
+        "short_name": "Windy City Cars",
+        "address": "3300 N Ashland Ave",
+        "city": "Chicago",
+        "state": "Illinois",
+        "zip": "60657",
+        "lat": 41.9426,
+        "long": -87.6695,
+        "image": "dealer-3.jpg"
+    }
+]
+
