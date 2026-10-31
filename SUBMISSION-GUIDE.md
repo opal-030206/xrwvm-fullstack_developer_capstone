@@ -8,13 +8,13 @@ Cloud account - they cannot be produced from this machine alone.
 
 | # | Points | What to submit | File / artefact | Status |
 |---|--------|----------------|-----------------|--------|
-| 1 | 1 | Public GitHub URL of `README.md` | `README.md` | **YOU MUST DO** (push repo, copy URL) |
+| 1 | 1 | Public GitHub URL of `README.md` | `README.md` | **READY** (URL below) |
 | 2 | 1 | Terminal output of the running Django server | `submission/django_server` | READY |
-| 3 | 3 | GitHub URL of `server/frontend/static/About.html` | `server/frontend/static/About.html` | **YOU MUST DO** (push repo, copy URL) |
-| 4 | 2 | GitHub URL of `server/frontend/static/Contact.html` | `server/frontend/static/Contact.html` | **YOU MUST DO** (push repo, copy URL) |
+| 3 | 3 | GitHub URL of `server/frontend/static/About.html` | `server/frontend/static/About.html` | **READY** (URL below) |
+| 4 | 2 | GitHub URL of `server/frontend/static/Contact.html` | `server/frontend/static/Contact.html` | **READY** (URL below) |
 | 5 | 2 | cURL login command + output | `submission/loginuser` | READY |
 | 6 | 2 | cURL logout command + output | `submission/logoutuser` | READY |
-| 7 | 1 | GitHub URL of `Register.jsx` | `server/frontend/src/components/Register/Register.jsx` | **YOU MUST DO** (push repo, copy URL) |
+| 7 | 1 | GitHub URL of `Register.jsx` | `server/frontend/src/components/Register/Register.jsx` | **READY** (URL below) |
 | 8 | 2 | cURL reviews for a dealer | `submission/getdealerreviews` | READY |
 | 9 | 2 | cURL all dealers | `submission/getalldealers` | READY |
 | 10 | 2 | cURL one dealer by id | `submission/getdealerbyid` | READY |
@@ -30,7 +30,7 @@ Cloud account - they cannot be produced from this machine alone.
 | 20 | 1 | Screenshot, dealer details + reviews + address bar | `screenshots/dealer_id_reviews.png` | READY |
 | 21 | 1 | Screenshot, review form filled in | `screenshots/dealership_review_submission.png` | READY |
 | 22 | 2 | Screenshot, posted review | `screenshots/added_review.png` | READY |
-| 23 | 3 | GitHub Actions run log | `submission/CICD` | **YOU MUST DO** (push repo, run workflow, paste log) |
+| 23 | 3 | GitHub Actions run log + screenshot | `submission/CICD`, `screenshots/CICD.png` | READY (run #3, success) |
 | 24 | 1 | Deployment URL | `submission/deploymentURL` | **YOU MUST DO** (deploy to Code Engine) |
 | 25 | 2 | Screenshot, deployed landing page | `screenshots/deployed_landingpage.png` | **REPLACE** (currently local production-mode) |
 | 26 | 2 | Screenshot, deployed logged-in page | `screenshots/deployed_loggedin.png` | **REPLACE** (currently local production-mode) |

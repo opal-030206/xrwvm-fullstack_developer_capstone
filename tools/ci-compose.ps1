@@ -48,6 +48,8 @@ foreach ($j in $jobs) {
     $text = Get-Content -Raw -Encoding utf8 $logPath
     # strip the 2026-...Z prefix GitHub adds to every log line
     $text = [regex]::Replace($text, "(?m)^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z ", "")
+    # strip ANSI colour codes so the file reads cleanly in any editor
+    $text = [regex]::Replace($text, "\x1b\[[0-9;]*m", "")
     Add-Line $text.TrimEnd()
   }
   else {
